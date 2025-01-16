@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import ServicesSideBar from '../../components/ServicesSideBar';
 
 function EngineeringProjects() {
   return (
@@ -12,11 +14,11 @@ function EngineeringProjects() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>SoftwareDevelopment</h2>
+              <h2>Engineering Projects</h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                SoftwareDevelopment
+                Engineering Projects
               </span>
             </div>
           </div>
@@ -40,39 +42,59 @@ function EngineeringProjects() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Transforming businesses through technology</h2>
+              <h2>Excellence in Project Execution</h2>
               <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT is a broad category{" "}
+              Bring your engineering visions to life with our end-to-end project management and execution services. We deliver innovative, precise, and efficient solutions tailored to your requirements.
               </p>
               
-              <h2>Showcase your talent with our portfolio</h2>
-              <p>
-                Aliquam eros justo, posuere loborti viverra laoreet matti
-                ullamcorper posuere viverra Aliquam justo a posuere lobortis,
-                viverra laoreet augue mattis fermentum ullamcorper{" "}
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
+              <h2>Our Services</h2>
+            
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Data Analytics Consulting
+                    <strong>Custom Project Design:</strong> Tailored engineering solutions for diverse applications.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Project Management:</strong> Comprehensive oversight to ensure timely and cost-effective delivery.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Implementation & Testing:</strong> Rigorous procedures to meet performance and quality standards.
+                  </li>
+                </ul>
+                
+              </div>
+              <h2>Why Work With Us?</h2>
+            
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Expertise across various engineering disciplines.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Advanced tools and methodologies for superior results.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Commitment to delivering projects on time and within budget.
+                  </li>
+                </ul>
+                
+              </div>
+              <h2>Industries We Serve</h2>
+            
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Construction & Infrastructure
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
@@ -80,18 +102,54 @@ function EngineeringProjects() {
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    IT Project Management Services
+                    Manufacturing & Automation
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Renewable Energy
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Research & Development
+                  </li>
+                </ul>
+                
+              </div>
+              <h2>Our Approach</h2>
+            
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Consultation: Understanding your project goals and constraints.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Planning: Detailed roadmaps and resource allocation.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Execution: Leveraging expertise and technology for implementation.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Evaluation: Ensuring quality and adherence to specifications.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Research & DevelopmentEvaluation: Ensuring quality and adherence to specifications.
                   </li>
                 </ul>
                 
               </div>
               <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing
+              Let us help you turn your engineering ideas into impactful projects. Contact us to learn more about our capabilities.
               </p>
+              <Link to="/contact-us" className="btn-two">
+                  Contact Us
+                  <i className="fas fa-arrow-right" />
+                </Link>
             </div>
             
             

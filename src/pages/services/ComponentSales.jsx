@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import ServicesSideBar from '../../components/ServicesSideBar';
 
 function ComponentSales() {
   return (
@@ -12,11 +14,11 @@ function ComponentSales() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>SoftwareDevelopment</h2>
+              <h2>Components Sales</h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                SoftwareDevelopment
+                Components Sales
               </span>
             </div>
           </div>
@@ -40,58 +42,104 @@ function ComponentSales() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Transforming businesses through technology</h2>
+              <h2>Your Trusted Source for Quality Components</h2>
               <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT is a broad category{" "}
+              Find the right components for your projects with our extensive inventory of high-quality electronic and mechanical parts. We ensure reliable products to support your success.
               </p>
               
-              <h2>Showcase your talent with our portfolio</h2>
-              <p>
-                Aliquam eros justo, posuere loborti viverra laoreet matti
-                ullamcorper posuere viverra Aliquam justo a posuere lobortis,
-                viverra laoreet augue mattis fermentum ullamcorper{" "}
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
+              
+              <h2>Our Offerings</h2>
+              
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Data Analytics Consulting
+                    <strong>Electronic Components:</strong> Resistors, capacitors, microcontrollers, sensors, and more.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Mobile App Development Services
+                    <strong>Mechanical Parts:</strong> Fasteners, gears, motors, and structural elements.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    IT Project Management Services
+                    <strong>Custom Sourcing:</strong> Assistance in finding specialized components to meet unique needs.
                   </li>
                 </ul>
                 
               </div>
+              <h2>Why Choose Us?</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Wide selection of high-quality, industry-standard components.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Competitive pricing with bulk order discounts.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Expert support to guide you in selecting the right parts.
+                  </li>
+                </ul>
+                
+              </div>
+              <h2>Industries We Serve</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Electronics & Automation
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Consumer Goods
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Automotive
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Robotics & Industrial Design
+                  </li>
+                </ul>
+                
+              </div>
+              <h2>Our Commitment</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Quality Assurance:</strong> Every component undergoes stringent quality checks.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Timely Delivery:</strong> Fast shipping to keep your projects on track.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Technical Support:</strong> Expert advice and troubleshooting assistance.
+                  </li>
+                  
+                </ul>
+                
+              </div>
               <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing
+              Whether you’re building prototypes or scaling production, we’re here to provide the components you need. Contact us today for a quote or to learn more about our inventory.
               </p>
+              <Link to="/contact-us" className="btn-two">
+                Contact Us
+                <i className="fas fa-arrow-right" />
+              </Link>
             </div>
             
             

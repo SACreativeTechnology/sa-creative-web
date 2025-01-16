@@ -14,11 +14,11 @@ function PrintingDesign() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>SoftwareDevelopment</h2>
+              <h2>3D Printing & Designing</h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                SoftwareDevelopment
+                3D Printing & Designing
               </span>
             </div>
           </div>
@@ -42,61 +42,84 @@ function PrintingDesign() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Transforming businesses through technology</h2>
+              <h2>Precision in Every Layer</h2>
               <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT is a broad category{" "}
+              Discover the power of 3D technology with our comprehensive printing and designing solutions. Whether for prototyping, manufacturing, or creative projects, our services provide unmatched accuracy and efficiency.
               </p>
               
-              <h2>Showcase your talent with our portfolio</h2>
-              <p>
-                Aliquam eros justo, posuere loborti viverra laoreet matti
-                ullamcorper posuere viverra Aliquam justo a posuere lobortis,
-                viverra laoreet augue mattis fermentum ullamcorper{" "}
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
+              
+              <h2>Our Offerings</h2>
+              
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Data Analytics Consulting
+                    <strong>Custom 3D Printing :</strong> High-quality models tailored to your requirements.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Mobile App Development Services
+                    <strong>Design Optimization :</strong> Advanced CAD tools to enhance and refine your designs.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    IT Project Management Services
+                    <strong>Rapid Prototyping :</strong> Accelerate development with quick turnarounds.
                   </li>
                 </ul>
                 
               </div>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing
-              </p>
+
+              <h2>Why Choose Us?</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Cutting-edge technology for precision and durability.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Industry experts committed to bringing your visions to life.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Diverse material options for versatile applications.
+                  </li>
+                </ul>
+                
+              </div>
+
+              <h2>Applications</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Product prototyping and testing   
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Architectural models
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Educational and research tools
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Custom artistic creations
+                  </li>
+                </ul>
+                
+              </div>
+              <p>Contact us to transform your ideas into reality with exceptional 3D printing and designing services.</p>
+              <Link to="/contact-us" className="btn-two">
+                Contact Us
+                <i className="fas fa-arrow-right" />
+              </Link>
             </div>
-        
-            
           </div>
           <ServicesSideBar />
           

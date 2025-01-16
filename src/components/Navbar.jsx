@@ -100,23 +100,25 @@ const Navbar = () => {
                         <Link to="/database-rights">Database Rights</Link>
                       </li>
                       <li>
-                        <Link to="utility-model-design.php">
+                        <Link to="utility-model-design">
                           Utility/Model Design
                         </Link>
                       </li>
                       <li>
-                        <Link to="geographical-indecation.php">
+                        <Link to="geographical-indecation">
                           Geographical Indecation
                         </Link>
                       </li>
                       <li>
-                        <Link to="trade-secretes.php"> </Link>
+                        <Link to="trade-secretes"> 
+                          Trade Secretes
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
                     <Link to="/product-prototype">
-                      Product Prototype Development
+                    Product Prototyping
                     </Link>
                   </li>
                   <li>

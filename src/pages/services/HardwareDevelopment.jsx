@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import ServicesSideBar from '../../components/ServicesSideBar';
 
 function HardwareDevelopment() {
   return (
@@ -12,11 +14,11 @@ function HardwareDevelopment() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>SoftwareDevelopment</h2>
+              <h2>Hardware Development</h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                SoftwareDevelopment
+                Hardware Development
               </span>
             </div>
           </div>
@@ -40,58 +42,81 @@ function HardwareDevelopment() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Transforming businesses through technology</h2>
+              <h2>Building Robust Solutions</h2>
               <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT is a broad category{" "}
+              From concept to creation, our hardware development services are designed to meet the most demanding technical challenges. We deliver high-quality, reliable, and innovative hardware tailored to your needs.
               </p>
               
-              <h2>Showcase your talent with our portfolio</h2>
-              <p>
-                Aliquam eros justo, posuere loborti viverra laoreet matti
-                ullamcorper posuere viverra Aliquam justo a posuere lobortis,
-                viverra laoreet augue mattis fermentum ullamcorper{" "}
-              </p>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing all aspects
-              </p>
+              <h2>Our Expertise</h2>
+              
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Data Analytics Consulting
+                    <strong>Circuit Design:</strong> High-performance PCB layouts and designs for various applications.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Mobile App Development Services
+                    <strong>Component Integration:</strong> Seamlessly integrating hardware components for optimal functionality.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    IT Project Management Services
+                    <strong>Testing & Debugging:</strong> Rigorous quality checks to ensure performance and reliability.
                   </li>
                 </ul>
                 
               </div>
-              <p>
-                IT Technology is a broad category encompassing all aspects of
-                information the a technology and the application of technology in
-                various industries IT Technology is a broad category encompas
-                aspects of information IT Technology is a broad category
-                encompassing
-              </p>
+              <h2>Why Partner with Us?</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Industry-leading tools and technologies.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Expertise in creating durable, efficient hardware solutions.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Collaborative approach to meet your project goals.
+                  </li>
+                </ul>
+                
+              </div>
+              <h2>Applications</h2>
+              
+              <div className="blog__details-portfolio">
+                
+                <ul className="blog__details-portfolio-middle">
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    IoT Devices and Smart Systems
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Consumer Electronics
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Industrial Automation Solutions
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    Custom Hardware Projects
+                  </li>
+                </ul>
+                
+                
+              </div>
+              <p>Get in touch to turn your hardware ideas into functional realities.</p>
+                <Link to="/contact-us" className="btn-two">
+                    Contact Us
+                    <i className="fas fa-arrow-right" />
+                  </Link>
             </div>
             
             

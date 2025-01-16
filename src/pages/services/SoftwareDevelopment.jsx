@@ -42,58 +42,106 @@ function SoftwareDevelopment() {
           </div>
           <div className="blog__details-content">
             <div className="blog__details-content-top" />
-            <h2>Transforming businesses through technology</h2>
+            <h2>Tailored Solutions for Your Business</h2>
             <p>
-              IT Technology is a broad category encompassing all aspects of
-              information the a technology and the application of technology in
-              various industries IT Technology is a broad category encompas
-              aspects of information IT Technology is a broad category
-              encompassing all aspects
+            Empower your operations with software designed to meet your unique needs. Our development services ensure seamless integration, scalability, and usability.
             </p>
-            <p>
-              IT Technology is a broad category encompassing all aspects of
-              information the a technology and the application of technology in
-              various industries IT is a broad category{" "}
-            </p>
+
+            <h2>What We Offer?</h2>
             
-            <h2>Showcase your talent with our portfolio</h2>
-            <p>
-              Aliquam eros justo, posuere loborti viverra laoreet matti
-              ullamcorper posuere viverra Aliquam justo a posuere lobortis,
-              viverra laoreet augue mattis fermentum ullamcorper{" "}
-            </p>
-            <p>
-              IT Technology is a broad category encompassing all aspects of
-              information the a technology and the application of technology in
-              various industries IT Technology is a broad category encompas
-              aspects of information IT Technology is a broad category
-              encompassing all aspects
-            </p>
             <div className="blog__details-portfolio">
               
               <ul className="blog__details-portfolio-middle">
                 <li>
                   <i className="fas fa-check-circle" />
-                  Data Analytics Consulting
+                  <strong>Custom Application Development:</strong> Applications built from scratch, tailored to your specific business requirements.
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  Mobile App Development Services
+                  <strong>System Integration:</strong> Ensuring compatibility and smooth operation across platforms.
                 </li>
                 <li>
                   <i className="fas fa-check-circle" />
-                  IT Project Management Services
+                  <strong>Maintenance & Support:</strong> Ongoing updates and technical assistance to keep your software running efficiently.
+                </li>
+              </ul>
+              
+            </div>
+            <h2>Why Choose Us?</h2>
+            
+            <div className="blog__details-portfolio">
+              
+              <ul className="blog__details-portfolio-middle">
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Expertise in cutting-edge technologies.
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Agile development methodology for faster delivery.
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  A focus on user-friendly and secure solutions.
+                </li>
+              </ul>
+              
+            </div>
+            <h2>Industries We Serve</h2>
+            
+            <div className="blog__details-portfolio">
+              
+              <ul className="blog__details-portfolio-middle">
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Retail & E-commerce
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Manufacturing & Automation
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Healthcare
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Education & Training
+                </li>
+              </ul>
+              
+            </div>
+            <h2>Our Process</h2>
+            <div className="blog__details-portfolio">
+              
+              <ul className="blog__details-portfolio-middle">
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Discovery: Understanding your goals and challenges.
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Design: Crafting intuitive and efficient user experiences.
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Development: Building reliable and robust software. Seamless implementation and launch.
+                </li>
+                <li>
+                  <i className="fas fa-check-circle" />
+                  Support: Continuous optimization and assistance.
                 </li>
               </ul>
               
             </div>
             <p>
-              IT Technology is a broad category encompassing all aspects of
-              information the a technology and the application of technology in
-              various industries IT Technology is a broad category encompas
-              aspects of information IT Technology is a broad category
-              encompassing
+            Transform your business with software solutions that drive growth and efficiency. Contact us to discuss your project today.
             </p>
+            <Link to="/contact-us" className="btn-two">
+              Contact Us
+              <i className="fas fa-arrow-right" />
+            </Link>
+
           </div>
           
           
