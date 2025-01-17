@@ -14,11 +14,11 @@ function TradeSecretes() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>Copyright </h2>
+              <h2>Trade Secrets </h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                Copyright 
+                Trade Secrets 
               </span>
             </div>
           </div>
@@ -42,9 +42,9 @@ function TradeSecretes() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Protect Your Creative Works</h2>
+              <h2>Safeguard Your Confidential Business Information</h2>
               <p>
-              Ensure the safety and ownership of your creative and intellectual assets with our expert copyright services. We help you secure the rights to your original work and safeguard your ideas from unauthorized use.
+              Protect the vital information that gives your business a competitive edge with our trade secrets services. We ensure your confidential data remains secure, compliant, and shielded from unauthorized use.
               </p>
               
               
@@ -55,19 +55,19 @@ function TradeSecretes() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Copyright Registration:</strong> Assistance with filing and legal documentation.
+                    <strong>Trade Secret Protection Strategies:</strong> Development of frameworks to safeguard your proprietary information.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Advisory Services:</strong> Guidance on copyright laws and rights enforcement.
+                    <strong>Non-Disclosure Agreements (NDAs):</strong> Drafting and enforcement to maintain confidentiality.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Copyright Protection:</strong> Strategies to prevent infringement and protect your work.
+                    <strong>Policy Development:</strong> Creating internal protocols to secure sensitive information.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Litigation Support:</strong> Expert advice and representation in copyright disputes.
+                    <strong>Litigation Support: </strong> Legal assistance in trade secret misappropriation cases.
                   </li>
                 </ul>
                 
@@ -79,39 +79,39 @@ function TradeSecretes() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    In-depth knowledge of intellectual property laws.
+                    Expertise in trade secret laws and global compliance standards.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Experienced professionals dedicated to protecting your rights.
+                    Tailored solutions for businesses of all sizes and industries.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Personalized solutions for creators, businesses, and organizations.
+                    Proactive measures to prevent unauthorized access and misuse.
                   </li>
                 </ul>
                 
               </div>
-              <h2>What Can Be Copyrighted?</h2>
+              <h2>What Can Be Protected?</h2>
               
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Academic and research materials.
+                    Manufacturing processes and formulas.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Literary works, including books, articles, and scripts.
+                    Business strategies and market research.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Consumer GoodsArtistic creations, such as paintings, photographs, and designs.
+                    Customer lists and supplier details.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    AutomotiveDigital content, including software, music, and videos.
+                    Proprietary algorithms and software.
                   </li>
                   
                 </ul>
@@ -124,22 +124,30 @@ function TradeSecretes() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Consultation:</strong>  Understanding your creative work and objectives.
+                    <strong>Consultation:</strong> Understanding your business and identifying key trade secrets.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Documentation:</strong> Preparing the necessary materials for registration.
+                    <strong>Protection Plan: </strong>Designing a comprehensive strategy to safeguard your information.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Filing:</strong> Handling the legal processes to secure your copyright.
+                    <strong>Documentation:</strong> Drafting NDAs, contracts, and policies.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Monitoring:</strong> Ensuring compliance with protection protocols.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Enforcement: </strong> Addressing and resolving any breaches of confidentiality.
                   </li>
                   
                 </ul>
                 
               </div>
               <p>
-              Protect your intellectual and creative achievements today. Contact us to secure your rights and prevent infringement.
+              Stay ahead by securing the critical information that drives your business. Contact us today to learn more about our trade secret services.
               </p>
               <Link to="/contact-us" className="btn-two">
                 Contact Us

@@ -1,6 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 
 function ContactUsPage() {
+  const [formData, setFormData] = useState({
+    name : "",
+    email : "",
+    phone : "",
+    subject : "",
+    message : "",
+  })
+
+  //Handle input change
+  function handleChange(e) {
+    const { name, value} = e.target;
+    setFormData({
+      ...formData,
+      [name] : value,
+    })
+  }
+
+  // Handle form Submit
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log("Form Data Submitted: ", formData);
+  }
   return (
     <>
   {/* Banner Area Start */}
@@ -14,7 +38,7 @@ function ContactUsPage() {
           <div className="page__banner-content">
             <h2>Contact Us</h2>
             <span>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
               <span>|</span>
               Contact Us
             </span>
@@ -38,29 +62,46 @@ function ContactUsPage() {
             <div className="contact__two-title">
               <span className="subtitle-one">Contact us</span>
               <h2>Do you have any question? </h2>
-              <p>
-                For your car we will do everything advice, repairs and
-                maintenance. We are the some preferred choice by many car owners
-                because
-              </p>
             </div>
             <div className="contact__two-form">
-              <form action="#">
+              <form onSubmit={handleSubmit}>
                 <div className="row gy-4 mb-4">
                   <div className="col-xl-6">
-                    <input type="text" placeholder="Your Name" />
+                    <input type="text"
+                            name = "name"
+                           placeholder="Your Name"
+                           value={formData.name}
+                           onChange={handleChange}
+                            />
                   </div>
                   <div className="col-xl-6">
-                    <input type="email" placeholder="Your E-mail" />
+                    <input type="email" 
+                            placeholder="Your E-mail"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange} />
                   </div>
                   <div className="col-xl-6">
-                    <input type="tel" placeholder="Phone Number" />
+                    <input type="tel" 
+                            placeholder="Phone Number"
+                            name="phone"
+                            value={formData.phone}
+                            onChange={handleChange}
+                           />
                   </div>
                   <div className="col-xl-6">
-                    <input type="text" placeholder="Subject" />
+                    <input type="text" 
+                            placeholder="Subject"
+                            name = "subject"
+                            value={formData.subject }
+                            onChange={handleChange}/>
                   </div>
                 </div>
-                <textarea placeholder="Your Message" defaultValue={""} />
+                <textarea placeholder="Your Message" 
+                          name= "message"
+                          value={formData.message}
+                          onChange={handleChange}
+                           />
                 <button type="submit" className="btn-two">
                   Submit Now
                   <i className="fas fa-chevron-right" />

@@ -14,11 +14,11 @@ function DatabaseRights() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>Copyright </h2>
+              <h2>Database Rights </h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                Copyright 
+                Database Rights 
               </span>
             </div>
           </div>
@@ -42,9 +42,9 @@ function DatabaseRights() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Protect Your Creative Works</h2>
+              <h2>Protect Your Data Collections</h2>
               <p>
-              Ensure the safety and ownership of your creative and intellectual assets with our expert copyright services. We help you secure the rights to your original work and safeguard your ideas from unauthorized use.
+              Ensure exclusive control over your valuable data collections with our database rights services. We help you secure legal protection for structured databases, safeguarding your investment and intellectual property.
               </p>
               
               
@@ -55,19 +55,19 @@ function DatabaseRights() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Copyright Registration:</strong> Assistance with filing and legal documentation.
+                    <strong>Database Rights Registration:</strong> Assistance in securing rights for your data collections.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Advisory Services:</strong> Guidance on copyright laws and rights enforcement.
+                    <strong>Infringement Protection:</strong> Legal support to address unauthorized use of your database.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Copyright Protection:</strong> Strategies to prevent infringement and protect your work.
+                    <strong>Consultation & Advisory:</strong> Guidance on database rights compliance and utilization.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Litigation Support:</strong> Expert advice and representation in copyright disputes.
+                    <strong>Renewals:</strong> Ensuring your database rights remain active and valid.
                   </li>
                 </ul>
                 
@@ -79,40 +79,37 @@ function DatabaseRights() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    In-depth knowledge of intellectual property laws.
+                    In-depth knowledge of database rights laws and regulations.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Experienced professionals dedicated to protecting your rights.
+                    Solutions tailored for businesses and organizations in various industries.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Personalized solutions for creators, businesses, and organizations.
+                    Reliable support to protect your competitive advantage.
                   </li>
                 </ul>
                 
               </div>
-              <h2>What Can Be Copyrighted?</h2>
+              <h2>What Can Be Protected?</h2>
               
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Academic and research materials.
+                    Structured data collections with significant investment in acquisition and organization.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Literary works, including books, articles, and scripts.
+                    Databases created for commercial, academic, or industrial purposes.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Consumer GoodsArtistic creations, such as paintings, photographs, and designs.
+                    Electronic and non-electronic data compilations.
                   </li>
-                  <li>
-                    <i className="fas fa-check-circle" />
-                    AutomotiveDigital content, including software, music, and videos.
-                  </li>
+                  
                   
                 </ul>
                 
@@ -124,22 +121,30 @@ function DatabaseRights() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Consultation:</strong>  Understanding your creative work and objectives.
+                    <strong>Consultation:</strong>  Understanding your database and its value.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Documentation:</strong> Preparing the necessary materials for registration.
+                    <strong>Documentation:</strong> Preparing detailed materials for registration.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Filing:</strong> Handling the legal processes to secure your copyright.
+                    <strong>Filing:</strong> Submitting applications to secure database rights.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Protection:</strong>  Monitoring and addressing potential violations.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Renewals:</strong> Managing renewals to maintain long-term protection.
                   </li>
                   
                 </ul>
                 
               </div>
               <p>
-              Protect your intellectual and creative achievements today. Contact us to secure your rights and prevent infringement.
+              Protect the integrity and exclusivity of your data collections. Contact us today to learn more about our database rights services.
               </p>
               <Link to="/contact-us" className="btn-two">
                 Contact Us

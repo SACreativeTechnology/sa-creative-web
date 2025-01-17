@@ -14,11 +14,11 @@ function GeographicalIndecation() {
         <div className="row justify-content-between align-items-center">
           <div className="col-xl-6 col-lg-7">
             <div className="page__banner-content">
-              <h2>Copyright </h2>
+              <h2>Geographical Indication </h2>
               <span>
                 <Link to="/">Home</Link>
                 <span>|</span>
-                Copyright 
+                Geographical Indication 
               </span>
             </div>
           </div>
@@ -42,9 +42,9 @@ function GeographicalIndecation() {
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
-              <h2>Protect Your Creative Works</h2>
+              <h2>Protect Regional Heritage and Authenticity</h2>
               <p>
-              Ensure the safety and ownership of your creative and intellectual assets with our expert copyright services. We help you secure the rights to your original work and safeguard your ideas from unauthorized use.
+              Safeguard the unique identity of your region's products with our Geographical Indication (GI) services. We assist in registering and protecting products that embody the cultural, historical, and geographical uniqueness of their origin.
               </p>
               
               
@@ -55,19 +55,19 @@ function GeographicalIndecation() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Copyright Registration:</strong> Assistance with filing and legal documentation.
+                    <strong>GI Registration:</strong> Comprehensive assistance in filing GI applications.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Advisory Services:</strong> Guidance on copyright laws and rights enforcement.
+                    <strong>Consultation & Advisory:</strong> Guidance on eligibility criteria and documentation.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Copyright Protection:</strong> Strategies to prevent infringement and protect your work.
+                    <strong>Infringement Support:</strong> Legal assistance to protect your GI rights.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Litigation Support:</strong> Expert advice and representation in copyright disputes.
+                    <strong>Renewals & Maintenance: </strong> Ensuring the continuity of your GI protection.
                   </li>
                 </ul>
                 
@@ -79,39 +79,39 @@ function GeographicalIndecation() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    In-depth knowledge of intellectual property laws.
+                    Extensive expertise in GI laws and international agreements.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Experienced professionals dedicated to protecting your rights.
+                    Tailored solutions for artisanal, agricultural, and industrial products.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Personalized solutions for creators, businesses, and organizations.
+                    Dedicated support to preserve your region’s legacy and authenticity.
                   </li>
                 </ul>
                 
               </div>
-              <h2>What Can Be Copyrighted?</h2>
+              <h2>What Can Be Protected?</h2>
               
               <div className="blog__details-portfolio">
                 
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    Academic and research materials.
+                    Agricultural products like teas, wines, and spices.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Literary works, including books, articles, and scripts.
+                    Handicrafts and traditional artifacts.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    Consumer GoodsArtistic creations, such as paintings, photographs, and designs.
+                    Food items with a strong geographical identity.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    AutomotiveDigital content, including software, music, and videos.
+                    Industrial goods with regional significance.
                   </li>
                   
                 </ul>
@@ -124,22 +124,30 @@ function GeographicalIndecation() {
                 <ul className="blog__details-portfolio-middle">
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Consultation:</strong>  Understanding your creative work and objectives.
+                    <strong>Consultation:</strong> Understanding your product’s unique geographical link.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Documentation:</strong> Preparing the necessary materials for registration.
+                    <strong>Documentation:</strong> Preparing detailed evidence of origin and quality.
                   </li>
                   <li>
                     <i className="fas fa-check-circle" />
-                    <strong>Filing:</strong> Handling the legal processes to secure your copyright.
+                    <strong>Filing:</strong> Submitting GI applications with precision and accuracy.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Monitoring:</strong> Safeguarding your GI from unauthorized use.
+                  </li>
+                  <li>
+                    <i className="fas fa-check-circle" />
+                    <strong>Renewals:</strong> Managing ongoing protection for your GI.
                   </li>
                   
                 </ul>
                 
               </div>
               <p>
-              Protect your intellectual and creative achievements today. Contact us to secure your rights and prevent infringement.
+              Celebrate and protect your region's unique legacy with our expert GI services. Contact us today to get started!
               </p>
               <Link to="/contact-us" className="btn-two">
                 Contact Us
