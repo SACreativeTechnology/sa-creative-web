@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function RequestQuote() {
   return (
@@ -14,7 +15,7 @@ function RequestQuote() {
           <div className="page__banner-content">
             <h2>Request Quote</h2>
             <span>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
               <span>|</span>
               Request Quote
             </span>
@@ -32,56 +33,72 @@ function RequestQuote() {
   {/* Request Quote Start */}
   <div className="request-quote__area section-padding">
     <div className="container">
-      <form action="#">
+      <form action="https://formspree.io/f/xqaaovlr" method="POST">
         <div className="request-quote__area-inputs">
           <div className="request-quote__area-input-field">
             <label htmlFor="first-name">First Name *</label>
-            <input type="text" id="first-name" placeholder="First" />
+            <input type="text" name='first-name' id="first-name" placeholder="First" />
           </div>
           <div className="request-quote__area-input-field">
             <label htmlFor="last-name">Last Name *</label>
-            <input type="text" id="last-name" placeholder="Last" />
+            <input type="text" name='last-name' id="last-name" placeholder="Last" />
           </div>
           <div className="request-quote__area-input-field">
             <label htmlFor="email">Email Address *</label>
-            <input type="email" id="email" placeholder="Email" />
+            <input type="email" name='email' id="email" placeholder="Email" />
           </div>
           <div className="request-quote__area-input-field">
             <label htmlFor="number">Number *</label>
-            <input type="text" id="number" placeholder="+ 00 123 4567" />
+            <input type="text" name='phonenumber' id="number" placeholder="+ 00 123 4567" />
           </div>
           <div className="request-quote__area-input-field">
-            <label htmlFor="company">Company/Organization *</label>
-            <input type="text" id="company" placeholder="Envato" />
+            <label htmlFor="company">Company/Organization </label>
+            <input type="text" name='company' id="company" placeholder="xyz" />
           </div>
           <div className="request-quote__area-input-field">
-            <label htmlFor="website">Website *</label>
-            <input type="text" id="website" placeholder="http://envato.com" />
+            <label htmlFor="website">Website </label>
+            <input type="text" name='website' id="website" placeholder="http://xyz.com" />
           </div>
         </div>
         <div className="request-quote__area-service-input">
           <span>What services can we provide you? *</span>
           <div className="request-quote__area-service-input-single">
-            <input type="checkbox" id="seo" />
-            <label htmlFor="seo">Optimization (SEO)</label>
+            <input type="checkbox" name='service' value="IPR Services" id="ipr-services" />
+            <label htmlFor="ipr-services">IPR Services</label>
           </div>
           <div className="request-quote__area-service-input-single">
-            <input type="checkbox" id="web-design" />
-            <label htmlFor="web-design">Web Design</label>
+            <input type="checkbox" name='service' value="Product Prototyping" id="product-prototyping" />
+            <label htmlFor="product-prototyping">Product Prototyping</label>
           </div>
           <div className="request-quote__area-service-input-single">
-            <input type="checkbox" id="web-hosting" />
-            <label htmlFor="web-hosting">Web Hosting</label>
+            <input type="checkbox" name='service' value="3D Printing & Designing" id="three-d-Printing" />
+            <label htmlFor="three-d-Printing">3D Printing & Designing</label>
           </div>
           <div className="request-quote__area-service-input-single">
-            <input type="checkbox" id="maintenance" />
-            <label htmlFor="maintenance">Maintenance</label>
+            <input type="checkbox" name='service' value="Hardware Development" id="hardware-development" />
+            <label htmlFor="hardware-development">Hardware Development</label>
+          </div>
+          <div className="request-quote__area-service-input-single">
+            <input type="checkbox" name='service' value="SoftwareDevelopment" id="software-development" />
+            <label htmlFor="software-development">SoftwareDevelopment</label>
+          </div>
+          <div className="request-quote__area-service-input-single">
+            <input type="checkbox" name='service' value="Components Sales" id="components-sales" />
+            <label htmlFor="components-sales">Components Sales</label>
+          </div>
+          <div className="request-quote__area-service-input-single">
+            <input type="checkbox" name='service' value="Engineering Projects" id="engineering-projects" />
+            <label htmlFor="engineering-projects">Engineering Projects</label>
+          </div>
+          <div className="request-quote__area-service-input-single">
+            <input type="checkbox" name='service' value="Other" id="other" />
+            <label htmlFor="other">Other</label>
           </div>
         </div>
         <label htmlFor="message" className="mb-2">
           Message *
         </label>
-        <textarea id="message" placeholder="Type Here" defaultValue={""} />
+        <textarea name='message' id="message" placeholder="Type Here" defaultValue={""} />
         <input
           type="submit"
           defaultValue="Submit Now"

@@ -11,7 +11,6 @@ function ContactUsPage() {
     message : "",
   })
 
-  //Handle input change
   function handleChange(e) {
     const { name, value} = e.target;
     setFormData({
@@ -20,11 +19,11 @@ function ContactUsPage() {
     })
   }
 
-  // Handle form Submit
   function handleSubmit(e) {
     e.preventDefault();
     console.log("Form Data Submitted: ", formData);
   }
+
   return (
     <>
   {/* Banner Area Start */}
@@ -64,7 +63,7 @@ function ContactUsPage() {
               <h2>Do you have any question? </h2>
             </div>
             <div className="contact__two-form">
-              <form onSubmit={handleSubmit}>
+              <form action="https://formspree.io/f/xqaaovlr" method="POST" >
                 <div className="row gy-4 mb-4">
                   <div className="col-xl-6">
                     <input type="text"
