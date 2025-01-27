@@ -186,7 +186,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>IPR Services</h4>
-              <Link to="/services/ipr-services" className="btn-three">
+              <Link to="/ipr-services" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>
@@ -200,7 +200,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>Product Prototyping</h4>
-              <Link to="/services/product-prototype" className="btn-three">
+              <Link to="/product-prototype" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>
@@ -214,7 +214,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>3D Printing & Designing</h4>
-              <Link to="/services/3d-printing" className="btn-three">
+              <Link to="/3d-printing" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>
@@ -228,7 +228,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>Hardware Development</h4>
-              <Link to="/services/hardware-development" className="btn-three">
+              <Link to="/hardware-development" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>
@@ -242,7 +242,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>Software Development</h4>
-              <Link to="/services/software-development" className="btn-three">
+              <Link to="/software-development" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>
@@ -256,7 +256,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>Components Sales</h4>
-              <Link to="/services/components-sales" className="btn-three">
+              <Link to="/components-sales" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>
@@ -270,7 +270,7 @@ function HomePage() {
             </div>
             <div className="services__two-single-service-content">
               <h4>Engineering Projects</h4>
-              <Link to="/services/engineering-projects" className="btn-three">
+              <Link to="/engineering-projects" className="btn-three">
                 read more
                 <i className="fas fa-chevron-right" />
               </Link>

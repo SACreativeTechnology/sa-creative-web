@@ -23,6 +23,7 @@ import DatabaseRights from './pages/services/IPRServies/DatabaseRights';
 import UtilityModelDesign from './pages/services/IPRServies/UtilityModelDesign';
 import GeographicalIndecation from './pages/services/IPRServies/GeographicalIndecation';
 import TradeSecretes from './pages/services/IPRServies/TradeSecretes';
+import NavbarOne from './components/NavbarOne';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
   return (
     <div>
       
-     
+     {/* <NavbarOne/> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

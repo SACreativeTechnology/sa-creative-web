@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ServicesSideBar() {
   return (
@@ -8,48 +9,48 @@ function ServicesSideBar() {
             <div className="sidebar-item-single sidebar-category">
                 <h3>Services</h3>
                 <div className="categories">
-                <a href="#" className="single-category">
+                <a to="#" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>IPR Services</h4>
                     </div>
                 </a>
-                <a href="product-prototype.php" className="single-category">
+                <Link to="/product-prototype" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>Product Prototype</h4>
                     </div>
-                </a>
-                <a href="3d-printing-designing.php" className="single-category">
+                </Link>
+                <Link to="/3d-printing" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>3D Printing &amp; Designing</h4>
                     </div>
-                </a>
-                <a href="hardware-development.php" className="single-category">
+                </Link>
+                <Link to="/hardware-development" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>Hardware Development</h4>
                     </div>
-                </a>
-                <a href="software-development.php" className="single-category">
+                </Link>
+                <Link to="/software-development" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>Software Development</h4>
                     </div>
-                </a>
-                <a href="components-sales.php" className="single-category">
+                </Link>
+                <Link to="/components-sales" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>Components Sales</h4>
                     </div>
-                </a>
-                <a href="engineering-projects.php" className="single-category">
+                </Link>
+                <Link to="/engineering-projects" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
                     <h4>Engineering Projects</h4>
                     </div>
-                </a>
+                </Link>
                 </div>
             </div>
             <div className="sidebar-item-single recent-blog-post">
@@ -66,7 +67,7 @@ function ServicesSideBar() {
                         category
                         </span>
                     </div>
-                    <a href="blog-details.html">
+                    <a to="blog-details.html">
                         A picture is an stand and stand us return
                     </a>
                     </div>
@@ -82,7 +83,7 @@ function ServicesSideBar() {
                         category
                         </span>
                     </div>
-                    <a href="blog-details.html">
+                    <a to="blog-details.html">
                         A picture is an stand and stand us return
                     </a>
                     </div>
@@ -98,7 +99,7 @@ function ServicesSideBar() {
                         category
                         </span>
                     </div>
-                    <a href="blog-details.html">
+                    <a to="blog-details.html">
                         A picture is an stand and stand us return
                     </a>
                     </div>
@@ -107,11 +108,11 @@ function ServicesSideBar() {
             </div>
             <div className="sidebar-item-single tags">
                 <h3>Tags</h3>
-                <a href="#">IT Consulting</a>
-                <a href="#">Support Pro</a>
-                <a href="#">Solutions</a>
-                <a href="#">WebTech</a>
-                <a href="#">Data</a>
+                <a to="#">IT Consulting</a>
+                <a to="#">Support Pro</a>
+                <a to="#">Solutions</a>
+                <a to="#">WebTech</a>
+                <a to="#">Data</a>
             </div>
             </div>
         </div>
