@@ -38,7 +38,7 @@ function ComponentSales() {
         <div className="row gy-4 flex-wrap">
           <div className="col-xl-8">
             <div className="blog__details-thumb">
-              <img src="assets/img/blog/blog-details.png" alt="image" />
+              <img src="assets/img/service/component.png" alt="image" />
             </div>
             <div className="blog__details-content">
               <div className="blog__details-content-top" />
