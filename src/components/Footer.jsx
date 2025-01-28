@@ -1,11 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    // <div>
-    //   <p>© {new Date().getFullYear()} SACreative Technology. All Rights Reserved.</p>
-    // </div>
-
     <>
   {/* Footer Two Area Start */}
   <div className="footer__two">
@@ -19,91 +16,181 @@ export default function Footer() {
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
           <div className="footer__two-widget">
             <div className="footer__two-widget-about">
-              <a href="#">
+              <Link to="#">
                 <img src="assets/img/sa-logo-white.png" alt="image" />
-              </a>
-              <p>Financial planners help people to gain knowledge aboutw</p>
-              <div className="footer__two-widget-about-location">
+              </Link>
+              <p>SACreative Tech Delivers Expert Solutions To Your Problems With Unmatched Quality And Diverse Expertise</p>
+              <div className="footer__two-widget">
+            <h4>Follow Us</h4>
+            <div className="footer__two-widget-subscribe">
+             
+              <div className="footer__two-widget-social">
+                <ul>
+                  <li>
+                    <Link to="https://www.facebook.com" target='_blank'>
+                      <i className="fab fa-facebook-f" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="https://www.instagram.com/sa_creative_tech/" target='_blank'>
+                      <i className="fab fa-instagram" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="https://www.linkedin.com" target='_blank'>
+                      <i className="fab fa-linkedin" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="https://wa.me/+918275751063?text=Hello" target='_blank'>
+                      <i className="fab fa-whatsapp" />
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+              {/* <div className="footer__two-widget-social">
+                <ul>
+                <li>
+                    <Link to="https://www.linkedin.com" target='_blank'>
+                      <i className="fab fa-linkedin" />
+                    </Link>
+                  </li>
+                  
+                  <li>
+                    <Link to="https://www.instagram.com/sa_creative_tech/" target='_blank'>
+                      <i className="fab fa-instagram" />
+                    </Link>
+                  </li>
+                </ul>
+              </div> */}
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+          <div className="footer__two-widget ml-85">
+            <h4>Quick Link</h4>
+            <div className="footer__two-widget-solution">
+              <ul>
+                <li>
+                  <Link to="/ipr-services">
+                    <i className="far fa-chevron-double-right" /> 
+                      IPR Services
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/product-prototype">
+                    <i className="far fa-chevron-double-right" />
+                    Product Prototyping
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/3d-printing">
+                    <i className="far fa-chevron-double-right" />
+                    3D Printing & Designing
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/hardware-development">
+                    <i className="far fa-chevron-double-right" />
+                    Hardware Development
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/software-development">
+                    <i className="far fa-chevron-double-right" />
+                    Software Development
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/components-sales">
+                    <i className="far fa-chevron-double-right" />
+                    Components Sales
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/engineering-projects">
+                    <i className="far fa-chevron-double-right" />
+                    Engineering Projects
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {/* <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+          <div className="footer__two-widget">
+            <h4>Our Services</h4>
+            <div className="footer__two-widget-solution">
+              <ul>
+                <li>
+                  <Link to="/software-development">
+                    <i className="far fa-chevron-double-right" />
+                    Software Development
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/components-sales">
+                    <i className="far fa-chevron-double-right" />
+                    Components Sales
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/engineering-projects">
+                    <i className="far fa-chevron-double-right" />
+                    Engineering Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link to="service-details.html">
+                    <i className="far fa-chevron-double-right" />
+                    Data Recovery
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> */}
+        
+        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+          <div className="footer__two-widget">
+            <h4>Contact Us</h4>
+            <div className="footer__two-widget-about-location">
+                <div className="footer__two-widget-about-location-item">
+                  <div className="footer__two-widget-about-location-item-icon">
+                    <i className="fas fa-envelope" />
+                  </div>
+                  <div className="footer__two-widget-about-location-item-info">
+                    <span>Email</span>
+                    <Link to="mail:info.sacreativetech@gmail.com">Info.SACreativeTech@gmail.com</Link>
+                  </div>
+                </div>
                 <div className="footer__two-widget-about-location-item">
                   <div className="footer__two-widget-about-location-item-icon">
                     <i className="flaticon-telephone-call" />
                   </div>
                   <div className="footer__two-widget-about-location-item-info">
                     <span>Phone Number</span>
-                    <a href="tel:(307)555-0133">(307) 555-0133</a>
+                    <Link to="tel:+917558293754">+91 7558293754</Link>
+                    <Link to="tel:+918275751063">+91 8275751063</Link>
+                  </div>
+                </div>
+                <div className="footer__two-widget-about-location-item">
+                  <div className="footer__two-widget-about-location-item-icon">
+                    <i className="fas fa-map-marker-alt" />
+                  </div>
+                  <div className="footer__two-widget-about-location-item-info">
+                    <span>Office Location</span>
+                    <Link to="https://maps.app.goo.gl/JeqXzWwVMqXhD1ov5" target='_blank'>Gheware Landmark, Opp.Jain Mandir, Vakharbhag, Sangli 416 416</Link>
                   </div>
                 </div>
               </div>
-            </div>
+            
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-          <div className="footer__two-widget ml-85">
-            <h4>Quick Link</h4>
-            <div className="footer__two-widget-solution">
-              <ul>
-                <li>
-                  <a href="service.html">
-                    <i className="far fa-chevron-double-right" />
-                    Service
-                  </a>
-                </li>
-                <li>
-                  <a href="faq.html">
-                    <i className="far fa-chevron-double-right" />
-                    FAQ
-                  </a>
-                </li>
-                <li>
-                  <a href="testimonial.html">
-                    <i className="far fa-chevron-double-right" />
-                    Testimonial
-                  </a>
-                </li>
-                <li>
-                  <a href="about.html">
-                    <i className="far fa-chevron-double-right" />
-                    About Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-          <div className="footer__two-widget">
-            <h4>Our Services</h4>
-            <div className="footer__two-widget-solution">
-              <ul>
-                <li>
-                  <a href="service-details.html">
-                    <i className="far fa-chevron-double-right" />
-                    Hosting Solution
-                  </a>
-                </li>
-                <li>
-                  <a href="service-details.html">
-                    <i className="far fa-chevron-double-right" />
-                    Cyber Security
-                  </a>
-                </li>
-                <li>
-                  <a href="service-details.html">
-                    <i className="far fa-chevron-double-right" />
-                    Network Analysis
-                  </a>
-                </li>
-                <li>
-                  <a href="service-details.html">
-                    <i className="far fa-chevron-double-right" />
-                    Data Recovery
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+
+        {/* <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
           <div className="footer__two-widget">
             <h4>Follow Us</h4>
             <div className="footer__two-widget-subscribe">
@@ -111,22 +198,22 @@ export default function Footer() {
               <div className="footer__two-widget-social">
                 <ul>
                   <li>
-                    <a href="https://www.facebook.com">
+                    <a to="https://www.facebook.com">
                       <i className="fab fa-facebook-f" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.twitter.com">
+                    <a to="https://www.twitter.com">
                       <i className="fab fa-twitter" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com">
+                    <a to="https://www.linkedin.com">
                       <i className="fab fa-linkedin" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.pinterest.com">
+                    <a to="https://www.pinterest.com">
                       <i className="fab fa-pinterest-p" />
                     </a>
                   </li>
@@ -134,7 +221,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     <div className="copyright__one">
@@ -147,8 +234,8 @@ export default function Footer() {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="copyright__one-right">
-              <a href="about.html">Privacy Policy</a>
-              <a href="contact.html">Contact Us</a>
+              <Link to="/">Privacy Policy</Link>
+              <Link to="/">Terms And Conditions</Link>
             </div>
           </div>
         </div>

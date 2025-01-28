@@ -30,7 +30,7 @@ const Navbar = () => {
   </div> */}
   {/* Preloader End */}
   {/* Top Bar Start */}
-  <div className="top__bar">
+  {/* <div className="top__bar">
     <div className="container">
       <div className="row">
         <div className="col-xl-7 col-md-7">
@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
   {/* Top Bar End */}
   {/* Header Area Start */}
   <div className="header__area header__sticky">

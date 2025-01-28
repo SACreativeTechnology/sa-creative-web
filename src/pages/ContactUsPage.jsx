@@ -148,7 +148,7 @@ function ContactUsPage() {
               </div>
               <div className="contact__two-single-info-content">
                 <h4>Location</h4>
-                <span>Gheware Landmark, Opp.Jain Mandir, Vakharbhag, Sangli 416 416</span><br />
+                <span><Link to="https://maps.app.goo.gl/JeqXzWwVMqXhD1ov5" target='_blank'>Gheware Landmark, Opp.Jain Mandir, Vakharbhag, Sangli 416 416</Link></span><br />
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ function ContactUsPage() {
   {/* Contact Location Start */}
   <div className="location-map">
   <iframe
-  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3818.285256302591!2d74.5711944!3d16.8617778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDUxJzQyLjQiTiA3NMKwMzQnMTYuMyJF!5e0!3m2!1sen!2sin!4v1735991865786!5m2!1sen!2sin"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.284759737894!2d74.56865947497289!3d16.861802383938446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc13d749994faa5%3A0xd0db2b0b503cd1ec!2sS%20A%20CREATIVE%20TECHNOLOGY%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1738045393473!5m2!1sen!2sin"
   width={600}
   height={450}
   style={{ border: 0 }}
@@ -168,6 +168,8 @@ function ContactUsPage() {
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
 />
+
+
 
   </div>
   {/* Contact Location Start */}

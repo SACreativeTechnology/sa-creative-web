@@ -67,7 +67,7 @@ function HomePage() {
                     We believe in pushing the boundaries of what's possible. our
                     pioneering spirit drives us to develop algorithms
                   </p>
-                  <a href="contact.html" className="btn-two">
+                  <a to="contact.html" className="btn-two">
                     Get Started
                     <i className="fas fa-arrow-right" />
                   </a>
@@ -100,7 +100,7 @@ function HomePage() {
                     Our comprehensive suite of services is designed to optimize
                     your IT infrastructure, enhance efficiency
                   </p>
-                  <Link  href="contact.html" className="btn-two">
+                  <Link  to="contact.html" className="btn-two">
                     Get Started
                     <i className="fas fa-arrow-right" />
                   </Link>
@@ -396,21 +396,25 @@ function HomePage() {
             <h3>Unlock Your Potential Today</h3>
           </div>
           <div className="subscribe-bottom">
-            <a href="request-quote.html" className="btn-two">
+            <Link to="/request-quote" className="btn-two">
               request quote
               <i className="fas fa-arrow-right" />
-            </a>
-            <div className="call-box">
+            </Link>
+            <Link to="https://wa.me/+918275751063?text=Hello" className="btn-two" target='_blank'>
+              <i className="fab fa-whatsapp fs-3" />
+              &nbsp; &nbsp;WhatsApp
+            </Link>
+            {/* <div className="call-box">
               <div className="call-box-item">
                 <div className="call-box-item-icon">
-                  <i className="flaticon-telephone-call" />
+                  <i className="fab fa-whatsapp" />
                 </div>
                 <div className="call-box-item-info">
                   <span>Make a call</span>
-                  <a href="tel:(307)555-0133">(307) 555-0133</a>
+                  <Link to="https://wa.me/+918275751063?text=Hello" target='_blank'>8275751063</Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
