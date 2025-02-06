@@ -127,8 +127,8 @@ function ContactUsPage() {
               </div>
               <div className="contact__two-single-info-content">
                 <h4>Contacts</h4>
-                <span>+91 8275751063</span>
-                <span>+91 7558293754</span>
+                <span>(+91 ) 8275751063</span>
+                <span>(+91 ) 7558293754</span>
               </div>
             </div>
             <div className="contact__two-single-info">

@@ -38,7 +38,7 @@ function AboutUsPage() {
           <div className="why-choose-us__two-image">
             <div className="why-choose-us__two-image-wrapper">
               <img
-                src="assets/img/why-choose-us/why-chose-us-two.png"
+                src="assets/img/about/about-us.png"
                 alt="image"
               />
             </div>
@@ -104,7 +104,7 @@ function AboutUsPage() {
             <div className="why-choose-us__two-image">
               <div className="why-choose-us__two-image-wrapper">
                 <img
-                  src="assets/img/why-choose-us/why-chose-us-two.png"
+                  src="assets/img/about/mission.png"
                   alt="image"
                 />
               </div>
@@ -123,7 +123,7 @@ function AboutUsPage() {
           <div className="why-choose-us__two-image">
             <div className="why-choose-us__two-image-wrapper">
               <img
-                src="assets/img/why-choose-us/why-chose-us-two.png"
+                src="assets/img/about/vision.png"
                 alt="image"
               />
             </div>
@@ -209,7 +209,7 @@ function AboutUsPage() {
             <div className="why-choose-us__two-image">
               <div className="why-choose-us__two-image-wrapper">
                 <img
-                  src="assets/img/why-choose-us/why-chose-us-two.png"
+                  src="assets/img/about/core-values.png"
                   alt="image"
                 />
               </div>

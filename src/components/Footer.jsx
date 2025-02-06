@@ -172,8 +172,8 @@ export default function Footer() {
                   </div>
                   <div className="footer__two-widget-about-location-item-info">
                     <span>Phone Number</span>
-                    <Link to="tel:+917558293754">+91 7558293754</Link>
-                    <Link to="tel:+918275751063">+91 8275751063</Link>
+                    <Link to="tel:+917558293754">(+91 ) 7558293754</Link>
+                    <Link to="tel:+918275751063">(+91 ) 8275751063</Link>
                   </div>
                 </div>
                 <div className="footer__two-widget-about-location-item">

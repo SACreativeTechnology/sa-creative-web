@@ -155,7 +155,7 @@ function HomePage() {
           <div className="why-choose-us__two-image">
             <div className="why-choose-us__two-image-wrapper">
               <img
-                src="assets/img/why-choose-us/why-chose-us-two.png"
+                src="assets/img/about/why-choose-us.png"
                 alt="image"
               />
             </div>
@@ -291,7 +291,7 @@ function HomePage() {
           <div className="why-choose-us__two-image">
             <div className="why-choose-us__two-image-wrapper">
               <img
-                src="assets/img/why-choose-us/why-chose-us-two.png"
+                src="assets/img/about/who-we-are.png"
                 alt="image"
               />
             </div>
@@ -333,7 +333,7 @@ function HomePage() {
           <div
             className="testimonial__two-left"
             style={{
-              backgroundImage: "url(assets/img/testimonial/testimonial-2.png)"
+              backgroundImage: "url(assets/img/about/testimonial.png)"
             }}
           />
         </div>
@@ -393,7 +393,8 @@ function HomePage() {
       >
         <div className="col-xl-7 col-lg-8">
           <div className="subscribe__one-title">
-            <h3>Unlock Your Potential Today</h3>
+            <h3>Ready to Bring Your Ideas to Life? Let's Connect!</h3>
+            {/* <p className='text-white'>Whether you're protecting your intellectual property, prototyping the next big thing, or developing custom hardware and software solutions — we’re here to help.</p> */}
           </div>
           <div className="subscribe-bottom">
             <Link to="/request-quote" className="btn-two">
@@ -402,7 +403,7 @@ function HomePage() {
             </Link>
             <Link to="https://wa.me/+918275751063?text=Hello" className="btn-two" target='_blank'>
               <i className="fab fa-whatsapp fs-3" />
-              &nbsp; &nbsp;WhatsApp
+              &nbsp; &nbsp;(+91 ) 8275751063
             </Link>
             {/* <div className="call-box">
               <div className="call-box-item">
