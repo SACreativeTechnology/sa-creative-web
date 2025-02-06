@@ -299,13 +299,13 @@ function HomePage() {
         </div>
         <div className="col-xl-6 col-lg-6">
           <div className="about__two-content">
-            <span className="subtitle-one">About us</span>
-            <h2>Enabling Success The Education</h2>
+            <span className="subtitle-one">Who We Are?</span>
+            <h3>Turning Ideas into Reality with Innovation and Expertise</h3>
             <p>
-            At SA Creative Technology, we believe in the power of innovation to shape the future. Our mission is to bridge the gap between visionary ideas and tangible outcomes by offering a comprehensive suite of services. From safeguarding intellectual property to developing advanced prototypes and engineering solutions, we are dedicated to helping businesses and individuals bring their concepts to life.
+            SACreativeTech is a forward-thinking organization dedicated to providing innovative solutions across a wide spectrum of services. Our expertise spans intellectual property rights protection, hardware and software development, product prototyping, and advanced engineering solutions.
             </p>
-            <p>With a team of skilled professionals, state-of-the-art technology, and a commitment to excellence, we strive to be your trusted partner in every stage of your project. Whether you're an entrepreneur, a startup, or an established organization, we provide the expertise and resources you need to achieve your goals. Together, let's push the boundaries of innovation and create solutions that make a lasting impact.</p>
-            
+            <p>We are driven by a passion for innovation and a commitment to delivering value to our clients. Our team consists of industry experts, engineers, and designers who bring creativity and technical excellence to every project. Together, we help businesses protect their ideas, develop groundbreaking products, and stay ahead in an ever-evolving market.</p>
+            <p>Let’s build the future together—empowered by innovation and driven by excellence.</p>
             
           </div>
         </div>

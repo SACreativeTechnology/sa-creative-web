@@ -3273,6 +3273,122 @@ p {
   position: relative;
   z-index: 9999;
 }
+
+/* new styles */
+.header__area-menubar-center-menu {
+  display: flex;
+  
+}
+.menu-responsive {
+  display: none;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  z-index: 10;
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+
+.sub-menu {
+  position: absolute;
+  background: var(--bg-white);
+  min-width: 240px;
+  transition: all 0.3s ease-out 0s;
+  top: 100%;
+  opacity: 0;
+  box-shadow: var(--box-shadow-1);
+  visibility: hidden;
+  z-index: 99;
+  text-align: left;
+  transform: scale(1, 0);
+}
+
+.menu-item-has-children:hover > .sub-menu {
+  transform: scale(1, 1);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .header__area-menubar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Show Hamburger Icon */
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  .header__area-menubar-center-menu {
+    display: none;
+    position: absolute;
+    background: #f8f9fa;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  /* Menu Open State */
+  .menu-open {
+    display: flex;
+  }
+
+  ul#mobilemenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack menu items vertically */
+  }
+
+  ul#mobilemenu > li {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color-2);
+  }
+
+  .sub-menu {
+    position: relative;
+    background: #f8f9fa;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1, 1);
+    
+  }
+
+  .header__area-menubar-left-logo {
+    z-index: 1;
+  }
+  .header__area-menubar-left     {
+    z-index: 1;
+  }
+  
+}
+
+/* end new style */
+
 .header__area-menubar-center-menu ul {
   padding: 0;
   margin: 0;
@@ -3738,7 +3854,7 @@ p {
   }
   .header__area-menubar-center-menu ul li a {
     font-size: 17px;
-    padding: 38px 7px;
+    padding: 10px 7px;
   }
 }
 @media (max-width: 991px) {
