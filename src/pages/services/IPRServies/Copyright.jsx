@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import ServicesSideBar from '../../../components/ServicesSideBar';
+
+import IprServicesSidebar from '../../../components/IprServicesSidebar';
 
 function Copyright() {
   return (
@@ -150,7 +151,7 @@ function Copyright() {
             
             
           </div>
-          <ServicesSideBar />
+          <IprServicesSidebar />
           
         </div>
       </div>

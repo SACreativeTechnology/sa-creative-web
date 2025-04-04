@@ -1,54 +1,61 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ServicesSideBar() {
-  return (
-    <div className="col-xl-4">
+function IprServicesSidebar(){
+    return(
+        <>
+        <div className="col-xl-4">
         <div className="blog__sidebar-main-sidebar">
             <div className="sidebar-item">
             <div className="sidebar-item-single sidebar-category">
-                <h3>Services</h3>
+                <h3>IPR Services</h3>
                 <div className="categories">
-                <Link to="/ipr-services" className="single-category">
+                <Link to="/patent" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>IPR Services</h4>
+                    <h4>Patent</h4>
                     </div>
                 </Link>
-                <Link to="/product-prototype" className="single-category">
+                <Link to="/treademark" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>Product Prototype</h4>
+                    <h4>Trademark</h4>
                     </div>
                 </Link>
-                <Link to="/3d-printing" className="single-category">
+                <Link to="/copyright" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>3D Printing &amp; Designing</h4>
+                    <h4>Copyright</h4>
                     </div>
                 </Link>
-                <Link to="/hardware-development" className="single-category">
+                <Link to="/design-rights" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>Hardware Development</h4>
+                    <h4>Design Rights</h4>
                     </div>
                 </Link>
-                <Link to="/software-development" className="single-category">
+                <Link to="/database-rights" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>Software Development</h4>
+                    <h4>Database Rights</h4>
                     </div>
                 </Link>
-                <Link to="/components-sales" className="single-category">
+                <Link to="/utility-model-design" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>Components Sales</h4>
+                    <h4>Utility Model Design</h4>
                     </div>
                 </Link>
-                <Link to="/engineering-projects" className="single-category">
+                <Link to="/geographical-indecation" className="single-category">
                     <div className="single-category-name">
                     <i className="fas fa-angle-double-right" />
-                    <h4>Engineering Projects</h4>
+                    <h4>Geographical Indication</h4>
+                    </div>
+                </Link>
+                <Link to="/trade-secretes" className="single-category">
+                    <div className="single-category-name">
+                    <i className="fas fa-angle-double-right" />
+                    <h4>Trade Secrets</h4>
                     </div>
                 </Link>
                 </div>
@@ -117,8 +124,8 @@ function ServicesSideBar() {
             </div>
         </div>
     </div>
-
-  )
+        </>
+    )
 }
 
-export default ServicesSideBar
+export default IprServicesSidebar

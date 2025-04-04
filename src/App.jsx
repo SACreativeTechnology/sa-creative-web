@@ -23,6 +23,7 @@ import DatabaseRights from './pages/services/IPRServies/DatabaseRights';
 import UtilityModelDesign from './pages/services/IPRServies/UtilityModelDesign';
 import GeographicalIndecation from './pages/services/IPRServies/GeographicalIndecation';
 import TradeSecretes from './pages/services/IPRServies/TradeSecretes';
+import IprServices from './components/IprServices';
 
 
 
@@ -55,6 +56,8 @@ function App() {
         <Route path="/geographical-indecation" element={<GeographicalIndecation />} />
         <Route path="/trade-secretes" element={<TradeSecretes />} />
         <Route path="/database-rights" element={<DatabaseRights />} />
+        <Route path="/ipr-services" element= { <IprServices /> } />
+
       </Routes>
       <Footer />
     </ div>

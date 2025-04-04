@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import ServicesSideBar from '../../../components/ServicesSideBar';
+
+import IprServicesSidebar from '../../../components/IprServicesSidebar';
 
 function UtilityModelDesign() {
   return (
@@ -154,7 +155,7 @@ function UtilityModelDesign() {
             
             
           </div>
-          <ServicesSideBar />
+          <IprServicesSidebar />
           
         </div>
       </div>

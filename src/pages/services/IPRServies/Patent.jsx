@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import ServicesSideBar from '../../../components/ServicesSideBar';
+
+import IprServicesSidebar from '../../../components/IprServicesSidebar';
 
 function Patent() {
   return (
@@ -158,7 +159,7 @@ function Patent() {
             
             
           </div>
-          <ServicesSideBar />
+          <IprServicesSidebar />
           
         </div>
       </div>
