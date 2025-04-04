@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function HomePage() {
   return (
     <>
+    {/* this is comment */}
   {/* Banner Two Area Start */}
   <div className="banner__two">
     <div className="swiper banner__two-slider">
