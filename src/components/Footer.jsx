@@ -26,18 +26,18 @@ export default function Footer() {
              
               <div className="footer__two-widget-social">
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link to="https://www.facebook.com" target='_blank'>
                       <i className="fab fa-facebook-f" />
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="https://www.instagram.com/sa_creative_tech/" target='_blank'>
                       <i className="fab fa-instagram" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="https://www.linkedin.com" target='_blank'>
+                    <Link to="https://www.linkedin.com/in/salmankhan-pathan-b727b735a/" target='_blank'>
                       <i className="fab fa-linkedin" />
                     </Link>
                   </li>
